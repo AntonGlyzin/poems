@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "target": "poems",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/poems",
+        "type": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/sitemaps.xml",
+        "destination": "/sitemaps.xml"
+      }
+    ]
+  }
+}

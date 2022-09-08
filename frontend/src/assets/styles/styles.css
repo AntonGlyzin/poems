@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Caveat&display=swap");
+body, div, p, section, header, footer,
+ul, li, nav, main, img, figure, figcaption, h1, h2, h3, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Play';
+  font-size: 1.1em;
+}
+
+header {
+  background-image: url("../images/main.jpg");
+  height: 399px;
+  width: 741px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header .head-astron {
+  background: url("../images/astron.png") no-repeat;
+  width: 175px;
+  height: 241px;
+  position: absolute;
+  background-size: cover;
+  left: 442px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 1;
+  top: 70px;
+}
+
+header .head-music {
+  background: url("../images/sound.png") no-repeat;
+  width: 138px;
+  height: 170px;
+  position: absolute;
+  background-size: contain;
+  left: 119px;
+  -webkit-transform: rotateZ(-13deg) scale(1.5);
+          transform: rotateZ(-13deg) scale(1.5);
+  top: 197px;
+}
+
+header .head-stars {
+  background: url("../images/stars.png") no-repeat;
+  width: 246px;
+  height: 93px;
+  position: absolute;
+  left: 475px;
+  -webkit-transform: rotate(87deg);
+          transform: rotate(87deg);
+  top: 80px;
+}
+
+header .contain {
+  width: 400px;
+  padding-left: 94px;
+  padding-top: 27px;
+}
+
+header .contain .search-poems .img {
+  width: 23px;
+  margin-left: 5px;
+  margin-top: 5px;
+  opacity: 0.9;
+  vertical-align: middle;
+}
+
+header .contain .search-poems input {
+  width: 184px;
+  outline: none;
+  border: 1px solid #939393;
+}
+
+header .contain .search-poems input:hover, header .contain .search-poems input:focus {
+  border: 1px solid #5a5a5a;
+}
+
+header .contain h1 {
+  color: #969885;
+  font-style: italic;
+  padding-left: 17px;
+  font-family: 'Caveat', sans-serif;
+}
+
+header .contain h2 {
+  color: #969885;
+  font-style: italic;
+  padding-left: 17px;
+  font-family: 'Caveat', sans-serif;
+  margin-top: -9px;
+}
+
+nav {
+  background-image: url(../images/linkbar.jpg);
+  height: 43px;
+  width: 741px;
+  background-repeat: no-repeat;
+}
+
+main .main-top {
+  background: url(../images/top_content.jpg) no-repeat;
+  height: 135px;
+}
+
+main {
+  background: url(../images/body_tile.jpg) repeat-y;
+  min-height: 200px;
+}
+
+main .main-content-book {
+  background: url(../images/vintage-5242212_1920.svg);
+  height: 68px;
+  width: 375px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: -5px;
+  margin-top: 13px;
+}
+
+footer {
+  background: url(../images/footer.jpg) no-repeat;
+  width: 621px;
+  font-size: .7em;
+  padding-left: 155px;
+}
+
+.load-spin {
+  margin-left: 139px;
+  margin-top: 21px;
+}
+/*# sourceMappingURL=styles.css.map */
